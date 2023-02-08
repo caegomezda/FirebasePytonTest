@@ -65,7 +65,7 @@ if __name__ == '__main__':
         img_data_array = get_values(json_data,"status")
         print(img_data_array)
         array_distribution2update(collection_ref,img_data_array)
-        time.sleep(10)
+        time.sleep(180)
 
 
 

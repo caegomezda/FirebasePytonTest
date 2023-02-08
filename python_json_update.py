@@ -61,4 +61,4 @@ if __name__ == '__main__':
         json_data = import_json(r'C:\Users\Edugoda\coding\Python\UparkingPython\python_json_data.json')
         json_update = ["FULL","EMPTY"]
         update_json_random(json_data,json_update)
-        time.sleep(5)
+        time.sleep(180)
