@@ -1,4 +1,5 @@
 import subprocess
+subprocess.Popen(["gnome-terminal", "-e", "ionic serve"])
 # Start the first program
 process1 = subprocess.Popen(['python', 'python_json_update.py'])
 
